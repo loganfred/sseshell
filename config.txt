@@ -1,0 +1,10 @@
+echo "Hello, World!"
+ls -l
+for i in {1..30}; do echo "Line $i"; sleep 1; done
+echo "This is stdout"; >&2 echo "This is stderr"
+sleep 5 && echo "Finished sleeping"
+false
+yes "Repeating message" | head -n 10
+uname -a
+date
+head -n 5 /etc/passwd
